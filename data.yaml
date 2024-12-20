@@ -1,0 +1,13 @@
+train: train\images
+val: valid\images
+test: test\images
+
+nc: 25
+names: ['ala_conc_amarillo', 'ala_conc_azul', 'ala_conc_rojo', 'ala_crem_amarillo', 'ala_crem_blanco', 'ala_crem_rosado', 'ala_sachet_amarillo', 'ala_ultra_rosa', 'cif_conc_bot_amarilla', 'cif_conc_botella_roja', 'cif_conc_botella_verde', 'cif_conc_sachet_amarillo', 'cif_conc_sachet_verde', 'drive', 'esencial', 'gigante', 'heroe', 'magistral_con_amarillo', 'magistral_con_azul', 'magistral_con_crema', 'magistral_con_rojo', 'magistral_con_verde', 'odex', 'vencedor', 'zorro']
+
+roboflow:
+  workspace: image-processing-egbi
+  project: image-processing-class
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/image-processing-egbi/image-processing-class/dataset/1
